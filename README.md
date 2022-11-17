@@ -16,7 +16,7 @@ cd ~
 cp ~/.basrc ~/.bashrc.bak
 git clone git@github.com:RivollierG/auto_conda_synth_shell.git
 cd auto_conda_synth_shell
-cat bashrc\_add\_on >> ~/.bashrc
+cat bashrc_add_on >> ~/.bashrc
 ```
 
 Then close and reopen a terminal or run `source ~/.bashrc`.  
