@@ -14,7 +14,7 @@ Open a terminal and execute the following instructions
 ```
 cd ~
 cp ~/.basrc ~/.bashrc.bak
-git clone @@@
+git clone git@github.com:RivollierG/auto_conda_synth_shell.git
 cd auto_conda_synth_shell
 cat bashrc\_add\_on >> ~/.bashrc
 ```
@@ -28,49 +28,48 @@ cd ~
 rm -rf auto_conda_synth_shell
 ```
 
-And then, optionnally `cp ~/.basrc.bak ~/.bashrc` or open the ~/.basrc file and manually delete the 15 lines relative to auto\_conda\_synth\_shell at the end of the file.
+And then, optionally `cp ~/.basrc.bak ~/.bashrc` or open the ~/.basrc file and manually delete the 15 lines relative to auto\_conda\_synth\_shell at the end of the file.
 
 ## Install fonts
 
 In order to print icons, you might need to install fonts.  
-Many of fonts support the icons, such as fira-code.  
+Many of the fonts support the icons, such as fira-code.  
 Here is how to install it with apt:  
 `sudo apt install fonts-firacode`
 Then close and reopen your terminal.  
 
 ## How to use the auto_conda feature
 
-In order to automaticaly activate your conda environment when changing directory, you need to have, in this directory, a file called env(ironment).y(a)ml or requirements.y(a)ml.  
+In order to automatically activate your conda environment when changing directory, you need to have, in this directory, a file called env(ironment).y(a)ml or requirements.y(a)ml.  
 The _name_ field of the file will be your environment name.  
-If the environment do not exist, a warning is shown.  
-For the yaml file creation you can either create it manually or exporting an already existing conda environment.  
+If the environment does not exist, a warning is shown.  
+For the YAML file creation, you can either create it manually or exporting an already existing conda environment.  
 
 ```
 cd my_project
-
 echo "name: myenv" > env.yml
 # OR
 conda activate myenv
 conda env export -f env.yml
 ```
 
-## Personnalize
+## Personalize
 
-You can personnalize your prompt by editing the synth-shell-prompt.config file.  
+You can personalize your prompt by editing the synth-shell-prompt.config file.  
 You can use supported color with their [8-bit codes](https://en.wikipedia.org/wiki/ANSI_escape_code#8-bit).  
 Please see [synth-shell](https://github.com/andresgongora/synth-shell) for more information.  
 
 ## Modification
 
-As wrtitten earlier, this is widely inpired from two other projects.  
+As written earlier, this is widely inspired from two other projects.  
 Here is the main modify made:  
-- From auto\_conda\_env, if the environment do not exist there's no creation but a warning.  
-!(img/warning.png)
+
+- From auto\_conda\_env, if the environment does not exist, there's no creation but a warning.  
+![ex](img/warning.png)
 - From synth_shell, here is only the synth-shell-prompt submodule.  
 - Icons added : folder & home icons, python icon.  
 - Icons modified : All git icons (green check mark, red blinking exclamation mark, up and down yellow/orage triangle).  
 
 ## Note
 
-As I do not use terraform nor kubernetes, I have not played with those feature but they are still here from [synth-shell](https://github.com/andresgongora/synth-shell).  
-
+As I do not use terraform nor kubernetes, I have not played with those feature, but they are still here from [synth-shell](https://github.com/andresgongora/synth-shell).  
