@@ -35,7 +35,7 @@ And then, optionally `cp ~/.basrc.bak ~/.bashrc` or open the ~/.basrc file and m
 In order to print icons, you might need to install fonts.  
 Many of the fonts support the icons, such as fira-code.  
 Here is how to install it with apt:  
-`sudo apt install fonts-firacode`
+`sudo apt install fonts-firacode`  
 Then close and reopen your terminal.  
 
 ## How to use the auto_conda feature
@@ -69,7 +69,11 @@ Here is the main modify made:
 - From synth_shell, here is only the synth-shell-prompt submodule.  
 - Icons added : folder & home icons, python icon.  
 - Icons modified : All git icons (green check mark, red blinking exclamation mark, up and down yellow/orage triangle).  
-
+examples:  
+![ex](img/ok.png) Everything is ok.  
+![ex](img/dirty.png) The git repo is 'dirty'.  
+![ex](img/down.png) The upstream branch is ahead (you have to `git pull`).  
+  
 ## Note
 
 As I do not use terraform nor kubernetes, I have not played with those feature, but they are still here from [synth-shell](https://github.com/andresgongora/synth-shell).  
