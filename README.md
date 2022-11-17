@@ -1,6 +1,7 @@
 # auto_conda_synth_shell
 
-Prettify your bash prompt and auto activate conda virtual environment  
+![ex](img/example.png)
+Prettify & personalize your bash prompt and auto activate conda virtual environment!  
 
 This is build over two projects that are not mine :  
 
@@ -72,6 +73,7 @@ Here is the main modify made:
 examples:  
 ![ex](img/ok.png) Everything is ok.  
 ![ex](img/dirty.png) The git repo is 'dirty'.  
+![ex](img/up.png) The local branch is ahead (you have to `git push`).  
 ![ex](img/down.png) The upstream branch is ahead (you have to `git pull`).  
   
 ## Note
