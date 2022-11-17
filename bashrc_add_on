@@ -1,0 +1,15 @@
+##################################
+# >>>> auto_conda_synth_shell >>>>
+##################################
+
+if [ -f $HOME/auto_conda_synth_shell/conda_auto_env.sh ]; then
+	source $HOME/auto_conda_synth_shell/conda_auto_env.sh
+fi
+
+if [ -f $HOME/auto_conda_synth_shell/synth-shell-prompt.sh ]; then
+	source $HOME/auto_conda_synth_shell/synth-shell-prompt.sh
+fi
+
+##################################
+# <<<< auto_conda_synth_shell <<<<
+##################################
