@@ -1,6 +1,6 @@
 # auto_conda_synth_shell
 
-![ex](img/example.png)
+![ex](img/example.png)  
 Prettify & personalize your bash prompt and auto activate conda virtual environment!  
 
 This is build over two projects that are not mine :  
@@ -12,7 +12,7 @@ This is build over two projects that are not mine :
 
 Open a terminal and execute the following instructions  
 
-```
+```bash
 cd ~
 cp ~/.basrc ~/.bashrc.bak
 git clone git@github.com:RivollierG/auto_conda_synth_shell.git
@@ -24,7 +24,7 @@ Then close and reopen a terminal or run `source ~/.bashrc`.
 
 ## How to uninstall
 
-```
+```bash
 cd ~
 rm -rf auto_conda_synth_shell
 ```
@@ -46,7 +46,7 @@ The _name_ field of the file will be your environment name.
 If the environment does not exist, a warning is shown.  
 For the YAML file creation, you can either create it manually or exporting an already existing conda environment.  
 
-```
+```bash
 cd my_project
 echo "name: myenv" > env.yml
 # OR
