@@ -79,4 +79,5 @@ examples:
 ## Note
 
 - In order to track upstream branch, you have to set an upstream branch. You can do it with `git push --set-upstream origin <branch name>`.  
+- In order to detect that you are behind the upstream branch or that you have diverge, you need to (regularly) run `git fetch`.  
 - As I do not use terraform nor kubernetes, I have not played with those feature, but they are still here from [synth-shell](https://github.com/andresgongora/synth-shell).  
