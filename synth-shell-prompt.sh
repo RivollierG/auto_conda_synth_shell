@@ -841,10 +841,6 @@ prompt_command_hook()
 	local user_config_file="$HOME/auto_conda_synth_shell/synth-shell-prompt.config"
 	if   [ -f $user_config_file ]; then
 		source $user_config_file
-	elif [ -f $root_config_file  -a "$USER" == "root"  ]; then
-		source $root_config_file
-	elif [ -f $sys_config_file ]; then
-		source $sys_config_file
 	fi
 	## PADDING
 	if $enable_vertical_padding; then
