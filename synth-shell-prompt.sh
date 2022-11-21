@@ -793,7 +793,7 @@ prompt_command_hook()
 	if [ -z "$pyenv" ]; then
 		elements=( ${elements[@]/"PYENV"} ) # Remove PYENV from elements to be shown
 	else 
-		pyenv=" "$pyenv
+		pyenv=" "$pyenv
 	fi
 	if [ -z "$tf" ]; then
 		elements=( ${elements[@]/"TF"} ) # Remove TF from elements to be shown
