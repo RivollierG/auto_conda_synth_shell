@@ -34,7 +34,7 @@ And then, optionally `cp ~/.basrc.bak ~/.bashrc` or open the ~/.basrc file and m
 ## Install fonts
 
 In order to print icons, you might need to install fonts.  
-Many of the fonts support the icons, such as fira-code.  
+Many of the fonts support the icons, such as font-awesome.  
 Here is how to install it with apt:  
 `ssudo apt install fonts-font-awesome`  
 Then close and reopen your terminal.  
