@@ -14,7 +14,7 @@ Open a terminal and execute the following instructions
 
 ```bash
 cd ~
-cp ~/.basrc ~/.bashrc.bak
+cp ~/.bashrc ~/.bashrc.bak
 git clone git@github.com:RivollierG/auto_conda_synth_shell.git
 cd auto_conda_synth_shell
 cat bashrc_add_on >> ~/.bashrc
@@ -36,7 +36,7 @@ And then, optionally `cp ~/.basrc.bak ~/.bashrc` or open the ~/.basrc file and m
 In order to print icons, you might need to install fonts.  
 Many of the fonts support the icons, such as fira-code.  
 Here is how to install it with apt:  
-`sudo apt install fonts-firacode`  
+`ssudo apt install fonts-font-awesome`  
 Then close and reopen your terminal.  
 
 ## How to use the auto_conda feature
