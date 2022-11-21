@@ -36,7 +36,7 @@ And then, optionally `cp ~/.basrc.bak ~/.bashrc` or open the ~/.basrc file and m
 In order to print icons, you might need to install fonts.  
 Many of the fonts support the icons, such as fira-code.  
 Here is how to install it with apt:  
-`sudo apt install fonts-firacode`  
+`sudo apt install fonts-powerline`  
 Then close and reopen your terminal.  
 
 ## How to use the auto_conda feature
