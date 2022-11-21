@@ -14,7 +14,7 @@ Open a terminal and execute the following instructions
 
 ```bash
 cd ~
-cp ~/.basrc ~/.bashrc.bak
+cp ~/.bashrc ~/.bashrc.bak
 git clone git@github.com:RivollierG/auto_conda_synth_shell.git
 cd auto_conda_synth_shell
 cat bashrc_add_on >> ~/.bashrc
